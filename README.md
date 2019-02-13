@@ -1,9 +1,9 @@
 # AI-pacman-implementation
 This repository contains all my implementations of AI algorithms in the Pacman game.
 
-## Tracking :
+## Tracking
 In this part, Pacman is chasing invisible ghosts using Bayesian inference with data provided by its sensors.
-### Exact inference :
+### Exact inference 
 First we assume that ghosts' positions are stationary, and Pacman updates its beliefs of the ghosts locations distribution using only sensors' data.
 For each position in the grid, we update the agent' belief using the following equation :
 
@@ -43,7 +43,7 @@ Combining data provided by the sensors and given older beliefs of the ghosts pos
 </p>
 
 
-###Joint Particle filtering
+### Joint Particle filtering
 
 If the space of ghosts positions is very large, e.g a large grid or a continuous space, exact inference can be very costly computionally and timely speaking. That is why we can use particle filtering as a mean to approximate the original distribution.
 <br />
