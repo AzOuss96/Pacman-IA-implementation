@@ -73,3 +73,4 @@ Pacman can now easily keep track of every invisible ghost :
 <img src="./img/tracking/DBN.gif">
 
 </p>
+
